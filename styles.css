@@ -1,0 +1,11 @@
+body {
+    background-image: url('image1.jpeg');
+    background-size: 1200px;
+}    
+
+div {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 74, 74);
+}
