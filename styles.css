@@ -7,5 +7,19 @@ div {
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: rgb(255, 74, 74);
+    color: rgb(249, 255, 77);
+}
+button {
+    background-color: rgb(1, 174, 165);
+    text-overflow: clip;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    will-change: filter;
+    transition: filter 400ms;
+    border-style: hidden;
+    border-radius: 10px;
+}
+button:hover {
+    filter: drop-shadow(0 0 2em rgb(255, 255, 255));
 }
